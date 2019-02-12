@@ -6,6 +6,18 @@
     <Name>ProjektZaliczeniowyMDA.database</Name>
     <FullPath>C:\Users\Karol\source\repos\ProjektZaliczeniowyMDA\ProjektZaliczeniowyMDA\ProjektZaliczeniowyMDA.database</FullPath>
   </Database>
+  <Cubes>
+    <ProjectItem>
+      <Name>WWI_Cube.cube</Name>
+      <FullPath>WWI_Cube.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>WWI_Cube.partitions</Name>
+          <FullPath>WWI_Cube.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+  </Cubes>
   <Dimensions>
     <ProjectItem>
       <Name>DimDate.dim</Name>
